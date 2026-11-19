@@ -1,0 +1,8 @@
+strategy,customers_targeted,churners_reached,churners_reached_%,campaign_cost,expected_saved_value,expected_net_value
+Target nobody,0,0,0.0,0.0,0.0,0.0
+Target everyone,1409,374,100.0,70450.0,97973.64,27523.64
+Model: top 10% riskiest,141,109,29.144385026737968,7050.0,30269.16,23219.16
+Model: top 20% riskiest,282,185,49.46524064171123,14100.0,51304.31999999999,37204.31999999999
+Model: top 30% riskiest,423,251,67.11229946524064,21150.0,68665.5,47515.5
+Model: threshold 0.33,742,335,89.57219251336899,37100.0,88961.57999999999,51861.57999999999
+Perfect knowledge (upper bound),374,374,100.0,18700.0,97973.64,79273.64

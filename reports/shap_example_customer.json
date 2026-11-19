@@ -1,0 +1,43 @@
+{
+  "test_row": 1090,
+  "churn_probability": 0.9635146260261536,
+  "actual_churn": 1,
+  "customer": {
+    "gender": "Male",
+    "SeniorCitizen": 1,
+    "Partner": "Yes",
+    "Dependents": "No",
+    "tenure": 1,
+    "PhoneService": "Yes",
+    "MultipleLines": "Yes",
+    "InternetService": "Fiber optic",
+    "OnlineSecurity": "No",
+    "OnlineBackup": "No",
+    "DeviceProtection": "No",
+    "TechSupport": "No",
+    "StreamingTV": "Yes",
+    "StreamingMovies": "Yes",
+    "Contract": "Month-to-month",
+    "PaperlessBilling": "Yes",
+    "PaymentMethod": "Electronic check",
+    "MonthlyCharges": 95.1,
+    "TotalCharges": 95.1
+  },
+  "top_reasons": [
+    {
+      "feature": "tenure = 1",
+      "shap_value": 1.127,
+      "effect": "increases churn risk"
+    },
+    {
+      "feature": "has_long_contract = 0",
+      "shap_value": 0.3231,
+      "effect": "increases churn risk"
+    },
+    {
+      "feature": "InternetService = Fiber optic",
+      "shap_value": 0.2416,
+      "effect": "increases churn risk"
+    }
+  ]
+}

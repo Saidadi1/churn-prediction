@@ -1,0 +1,53 @@
+feature,mean_abs_shap
+tenure,0.4554808585888215
+has_long_contract,0.36314276640813353
+Contract_Two year,0.2667197330996603
+InternetService_Fiber optic,0.21708529901452664
+MonthlyCharges,0.19590995481106632
+OnlineSecurity_No,0.18826389987374217
+avg_monthly_spend,0.17401535906323798
+Contract_Month-to-month,0.1687529346250169
+PaymentMethod_Electronic check,0.14768797414710333
+TechSupport_No,0.13748978255682537
+MultipleLines_No,0.11426332861023966
+TotalCharges,0.10838924314382786
+PaperlessBilling_No,0.0718683909853051
+OnlineBackup_No,0.07125086199120396
+tenure_bucket_0-1y,0.056495926700561555
+StreamingTV_Yes,0.05414084212500376
+PaperlessBilling_Yes,0.04847504471783467
+StreamingMovies_Yes,0.04782183630978161
+Dependents_Yes,0.039789456611704535
+SeniorCitizen,0.032106475423885374
+Dependents_No,0.03157333231000065
+OnlineSecurity_No internet service,0.025615099467843773
+StreamingTV_No,0.023896415045450613
+Contract_One year,0.023090328890431177
+num_services,0.019552396369230948
+PhoneService_Yes,0.01763738107155569
+PhoneService_No,0.017339678141967622
+InternetService_No,0.015729130524145596
+InternetService_DSL,0.01288903807315519
+DeviceProtection_No,0.012430877731077665
+TechSupport_Yes,0.01223804558740665
+gender_Male,0.011868926044857658
+StreamingMovies_No,0.011417781438031916
+tenure_bucket_4y+,0.011086630410424776
+tenure_bucket_1-2y,0.010029361667138704
+gender_Female,0.008751518098329102
+OnlineBackup_Yes,0.00795648621585101
+PaymentMethod_Mailed check,0.007828005863486802
+PaymentMethod_Credit card (automatic),0.006254484487234448
+PaymentMethod_Bank transfer (automatic),0.003770468554031874
+tenure_bucket_2-4y,0.0032806259415405314
+DeviceProtection_No internet service,0.003260722710355029
+MultipleLines_No phone service,0.0031618432381511873
+MultipleLines_Yes,0.0029951795035836988
+DeviceProtection_Yes,0.0028374921693416974
+Partner_No,0.002526435446072811
+OnlineSecurity_Yes,0.00249367896366152
+Partner_Yes,0.0006461251619443055
+StreamingTV_No internet service,0.0
+TechSupport_No internet service,0.0
+OnlineBackup_No internet service,0.0
+StreamingMovies_No internet service,0.0

@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environment ---
+.venv/
+venv/
+
+# --- Data & artifacts (reproducible from code, too large / not ours to commit) ---
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# --- MLflow local tracking ---
+mlruns/
+mlartifacts/
+mlflow.db
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Private notes (never commit) ---
+private/
